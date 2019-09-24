@@ -1,5 +1,10 @@
 # serverless-api
 
+## Criado com
+
+* [serverless](https://github.com/serverless/serverless) - Framework Javascript de construção de micro-serviços por eventos ou rotas.
+* [serverless-offiline](https://github.com/dherault/serverless-offline) - Biblioteca Javascript de emulação de Lambda λ e Api Gateway localmente.
+
 ## Criando api com serveless aws
 
 Projeto criado para aprendizado de funcionamento de api serverless, lambdas, api gateway entre outros serviços.
