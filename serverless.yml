@@ -12,6 +12,12 @@ custom:
     port: 4000
 
 functions:
+  create_user:
+    handler: functions/create_user/create_user.handler
+    events:
+      - http:
+          path: api/create_user
+          method: post
   authenticator:
     handler: functions/authenticator/authenticator.handler
     events:
