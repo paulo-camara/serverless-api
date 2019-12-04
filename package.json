@@ -3,6 +3,11 @@
         "start": "serverless offline"
     },
     "devDependencies": {
-        "serverless-offline": "^5.11.0"
+        "serverless-offline": "5.11.0"
+    },
+    "dependencies": {
+        "babel": "6.23.0",
+        "babel-cli": "6.26.0",
+        "babel-preset-env": "1.7.0"
     }
 }

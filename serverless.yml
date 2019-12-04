@@ -12,15 +12,9 @@ custom:
     port: 4000
 
 functions:
-  create_user:
-    handler: functions/create_user/create_user.handler
+  save_image:
+    handler: functions/SaveImage/SaveImage.handler
     events:
       - http:
-          path: api/create_user
+          path: api/save_image
           method: post
-  authenticator:
-    handler: functions/authenticator/authenticator.handler
-    events:
-      - http:
-          path: api/authenticator
-          method: get
